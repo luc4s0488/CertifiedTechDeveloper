@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto HTML de Digital House</title>
+
+    <style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+        </style>
+</head>
+<body>
+    <h1>Tablas en HTML</h1>
+
+    <table> <!-- Etiqueta de tabla-->
+        <colgroup span="1" style="background-color: burlywood;"></colgroup>
+        <tr> <!-- Etiqueta de fila (row) -->
+            <th>Alumnos</th> <!-- Etiqueta de table header (encabezado de tabla)-->
+            <th colspan="2">Nombre y apellido</th> <!--calspan nos ayudara a estender la celda horizontalmente-->
+            <th>Notas</th>
+        </tr>
+        <tr>
+            <td>1</td> <!-- Etiqueta de table data (información dde tabla)-->
+            <td>Pedro</td>
+            <td>Perez</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Rodrigo</td>
+            <td>Gonzalez</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Humberto</td>
+            <td rowspan="2">Velez</td> <!-- Con rowspan podemos hacer una extensión vertical de la celda-->
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Cecilia</td>
+            <td>10</td>
+        </tr>
+
+    </table>
+    
+</body>
+</html>
