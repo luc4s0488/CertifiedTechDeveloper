@@ -1,0 +1,27 @@
+/*Estilo por id:*/
+#titulo-principal{
+    color: rgb(149, 55, 55);
+}
+
+/*Estilo por class*/
+.color-blue{
+    color: rgb(40, 40, 156);
+}
+
+p.color-blue{
+    text-align: center;
+}
+
+.fondo-gris{
+    background-color: gray;
+}
+
+/*Estilo combinando elementos*/
+p,h3{
+    font-size: large;
+}
+
+/*Selector universal*/
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
